@@ -106,7 +106,7 @@ function render() {
   //   hasfalse = true;
   // }
   $(window).blur(function() {
-    window.close();
+    open(location, '_self').close();
   });
   $(window).focus(function() {
     if(hasfalse){
