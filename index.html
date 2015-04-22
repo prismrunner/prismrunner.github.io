@@ -169,7 +169,7 @@ function render() {
   if( keyboard.pressed("down"))     mult-=0.0005;
   nowspace = new Date();
   if( keyboard.pressed("T+Y+L+E+R") && ((nowspace - spacetime) > 0.5)){
-    boss = true;
+    boss = false;
   }
   if( keyboard.pressed("space")){
       location.reload();
